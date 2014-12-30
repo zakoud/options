@@ -1,6 +1,8 @@
 // Options test script
 // you can change the model used by changing the .opt.optionModelApplied variable to either `Black76 or `BlackScholes
 
+\l options.q
+
 / Load data
 paramsTable:.opt.bls[`ParamsTable];
 paramsTable,:("FFFFFFFFSS";" ")0: `options.txt;
